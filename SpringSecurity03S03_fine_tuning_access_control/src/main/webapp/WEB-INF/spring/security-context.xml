@@ -6,6 +6,9 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<security:http auto-config="true" use-expressions="false">
+		<!-- http-basic authentication is configured, web browser will display a login dialog for user authentication
+		not to redirect to login form, just display login dialog-->
+		<!--<security:http-basic/>-->
 		<security:intercept-url pattern="/appointments/*" access="ROLE_USER"/>
 		<security:intercept-url pattern="/schedule/*" access="ROLE_FOO"/>
 		<security:intercept-url pattern="/**" access="ROLE_ANONYMOUS,ROLE_USER"/>

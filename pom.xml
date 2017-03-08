@@ -13,6 +13,7 @@
     <module>SpringSecurity03S06_fine_tuning_form_login</module>
     <module>SpringSecurity03S07_post_login_concerns</module>
     <module>SpringSecurity03S08_logout</module>
+      <module>SpringSecurity04S03_UserDetailsService</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

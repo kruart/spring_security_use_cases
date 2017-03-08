@@ -9,6 +9,7 @@
     <module>SpringSecurity02S07_Demonstration</module>
       <module>SpringSecurity03S02_Basic_xml_conf</module>
       <module>SpringSecurity03S03_fine_tuning_access_control</module>
+      <module>SpringSecurity03S05_custom_form_login</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

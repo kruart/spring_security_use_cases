@@ -17,6 +17,7 @@
       <module>SpringSecurity04S04_SecurityContextHolder</module>
       <module>SpringSecurity04S05_UserDetails</module>
       <module>SpringSecurity04S06_creating_new_accounts</module>
+    <module>SpringSecurity04S07_CustomAuthenticationProvider</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

@@ -16,6 +16,7 @@
       <module>SpringSecurity04S03_UserDetailsService</module>
       <module>SpringSecurity04S04_SecurityContextHolder</module>
       <module>SpringSecurity04S05_UserDetails</module>
+      <module>SpringSecurity04S06_creating_new_accounts</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

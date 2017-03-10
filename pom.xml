@@ -20,6 +20,7 @@
     <module>SpringSecurity04S07_CustomAuthenticationProvider</module>
     <module>SpringSecurity04S09_CustomAuthenticationToken_and_Filter</module>
       <module>SpringSecurity05S02_JDBC_UserDetails_Manager</module>
+      <module>SpringSecurity05S03_group_based_access_control</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

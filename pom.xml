@@ -22,6 +22,7 @@
       <module>SpringSecurity05S02_JDBC_UserDetails_Manager</module>
       <module>SpringSecurity05S03_group_based_access_control</module>
       <module>SpringSecurity05S04_encoding_password</module>
+      <module>SpringSecurity05S05_salting_hashes</module>
   </modules>
   <name>spring_security Maven Webapp</name>
   <url>http://maven.apache.org</url>

@@ -25,6 +25,7 @@
     <module>SpringSecurity05S05_salting_hashes</module>
     <module>SpringSecurity06S04_LDAP_AuthenticationProvider</module>
     <module>SpringSecurity06S05_UserDetailsContextMapper</module>
+    <module>SpringSecurity06S06_fine_tuning__ldap_configuration</module>
 
   </modules>
   <name>spring_security Maven Webapp</name>

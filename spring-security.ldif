@@ -1,0 +1,75 @@
+version: 1
+
+dn: dc=oreilly,dc=com
+objectclass: domain
+objectclass: top
+dc: oreilly
+
+dn: ou=groups,dc=oreilly,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=oreilly,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: uid=jadoe,ou=people,dc=oreilly,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Jane Doe
+sn: Doe
+uid: jadoe
+userPassword:: e1NTSEF9WEZ4NDNFWWpJOU9TUjJHc29aenVWWnI3SERGVnBMRHRVRmR0bmc9P
+ Q==
+
+dn: uid=kbowersox,ou=people,dc=oreilly,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Kevin Bowersox
+sn: Bowersox
+uid: kbowersox
+userPassword:: e1NTSEF9SUdnUlh4a3pJdUdUOGNReWRxb0phbGJieUpvOWh5cEFydFllcXc9P
+ Q==
+
+dn: uid=jrdoe,ou=people,dc=oreilly,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Junior Doe
+sn: Doe
+uid: jrdoe
+userPassword:: e1NTSEF9SDBsdWZHOU53cVAyUXNaWjBQSStkanZtMng4UnV6b1RvV25TRGc9P
+ Q==
+
+dn: uid=jodoe,ou=people,dc=oreilly,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: John Doe
+sn: Doe
+uid: jodoe
+userPassword:: e1NTSEF9Rnd5UmtGamlpenpXVndPOE9TbkttekUyMzFsT2t6SnJ0QVJrVFE9P
+ Q==
+
+dn: cn=Admin,ou=groups,dc=oreilly,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Admin
+uniqueMember: uid=kbowersox,ou=people,dc=oreilly,dc=com
+
+dn: cn=User,ou=groups,dc=oreilly,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: User
+uniqueMember: uid=kbowersox,ou=people,dc=oreilly,dc=com
+uniqueMember: uid=jrdoe,ou=people,dc=oreilly,dc=com
+uniqueMember: uid=jadoe,ou=people,dc=oreilly,dc=com
+uniqueMember: uid=jodoe,ou=people,dc=oreilly,dc=com

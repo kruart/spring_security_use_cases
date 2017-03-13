@@ -29,6 +29,7 @@
     <module>SpringSecurity07S02_expression_based_conf</module>
     <module>SpringSecurity07S03_Authorize_tag</module>
     <module>SpringSecurity07S04_method_security_with_PreAuthorize_annotation</module>
+      <module>SpringSecurity07S05_method_security_with_PostAuthorize_annotation</module>
 
 
   </modules>

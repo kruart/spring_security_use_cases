@@ -31,6 +31,7 @@
     <module>SpringSecurity07S04_method_security_with_PreAuthorize_annotation</module>
       <module>SpringSecurity07S05_method_security_with_PostAuthorize_annotation</module>
     <module>SpringSecurity07S06_RolesAllowed_annotation</module>
+    <module>SpringSecurity07S07_method_security_with_PreFilter_annotation</module>
 
 
   </modules>

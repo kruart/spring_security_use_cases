@@ -33,6 +33,7 @@
     <module>SpringSecurity07S06_RolesAllowed_annotation</module>
     <module>SpringSecurity07S07_method_security_with_PreFilter_annotation</module>
       <module>SpringSecurity07S08_method_security_with_PostFilter_annotation</module>
+      <module>SpringSecurity08S02_ACL_Schema</module>
 
 
   </modules>

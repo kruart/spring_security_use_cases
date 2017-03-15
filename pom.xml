@@ -29,11 +29,12 @@
     <module>SpringSecurity07S02_expression_based_conf</module>
     <module>SpringSecurity07S03_Authorize_tag</module>
     <module>SpringSecurity07S04_method_security_with_PreAuthorize_annotation</module>
-      <module>SpringSecurity07S05_method_security_with_PostAuthorize_annotation</module>
+    <module>SpringSecurity07S05_method_security_with_PostAuthorize_annotation</module>
     <module>SpringSecurity07S06_RolesAllowed_annotation</module>
     <module>SpringSecurity07S07_method_security_with_PreFilter_annotation</module>
-      <module>SpringSecurity07S08_method_security_with_PostFilter_annotation</module>
-      <module>SpringSecurity08S02_ACL_Schema</module>
+    <module>SpringSecurity07S08_method_security_with_PostFilter_annotation</module>
+    <module>SpringSecurity08S02_ACL_Schema</module>
+    <module>SpringSecurity09S02_https_channel_security</module>
 
 
   </modules>

@@ -35,6 +35,7 @@
     <module>SpringSecurity07S08_method_security_with_PostFilter_annotation</module>
     <module>SpringSecurity08S02_ACL_Schema</module>
     <module>SpringSecurity09S02_https_channel_security</module>
+      <module>SpringSecurity09S05_remeber_me_authentication</module>
 
 
   </modules>
